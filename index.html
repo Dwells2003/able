@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>gameTracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://public.codepenassets.com/css/normalize-5.0.0.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--
+Author: Daniel Wells
+Date: 1/21/25
+Class: CIS 376-01 
+ -->
+
+<center>
+  <h1>Daniel's Game Tracker</h1>
+</center>
+
+<center>
+  <p>List of games that I have played and want to play </p>
+</center>
+
+<center>
+
+  <p>A place to enter games that I both have played and want to play while at
+    <a href="https://una.edu/" target="una">UNA</a>
+  </p>
+
+</center>
+
+<!-- html form helped from w3schools -->
+<center>
+  <!-- <form> -->
+  <label for="gameArea">New game played:</label><br>
+  <!--   <input type="text" id="newGame" placeholder="Enter a new game">
+<br> -->
+  <textarea id="gameArea" rows="4" cols="50">
+</textarea>
+  <!--   <input type="submit" value="save game addition"> -->
+  <button id="newGame" class="btn btn-primary"> save game addition...</button>
+  <!-- </form>  -->
+</center>
+
+<h4> Games Played: </h4>
+<ul class="list-group">
+  <li id="firstGame" class="list-group-item list-group-item-primary"> Half-Life </li>
+  <li class="list-group-item list-group-item-primary"> Subnautica </li>
+  <li class="list-group-item list-group-item-primary"> Team Fortress 2 </li>
+  <li class="list-group-item list-group-item-primary"> Dying Light </li>
+  <li class="list-group-item list-group-item-primary"> Lethal Company </li>
+</ul>
+<br><br>
+link to the <a href="https://www.half-life.com/en/home/" target="OG">Half-Life website</a>
+<br>
+link to the <a href="https://store.steampowered.com/app/1684410/Seal_World/" target="OG">Seal World Game</a>
+<br><br><br>
+<h4> Games I want to play: </h4>
+<ul class="list-group">
+  <li class="list-group-item list-group-item-warning"> Seal World 🦭 </li>
+  <li class="list-group-item list-group-item-warning"> Monster Hunter Wilds </li>
+  <li class="list-group-item list-group-item-warning"> Escape from Tarkov </li>
+  <li class="list-group-item list-group-item-warning"> Satisfactory </li>
+
+</ul>
+
+<!-- New code is the footer -->
+<footer>
+  link to the <a href="https://codepen.io/Dwells2003/pen/YPKLJrJ" target="OG">OG codepen</a>
+  <br><br><br>
+  <img src="https://gist.github.com/user-attachments/assets/0e6b68db-7be1-497b-a93a-71e081f6218b" alt="wireframe" style="width:500px;height:500px;">
+</footer>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.14.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
